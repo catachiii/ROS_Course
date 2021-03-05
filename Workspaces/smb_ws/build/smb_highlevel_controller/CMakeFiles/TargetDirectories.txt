@@ -3,6 +3,7 @@
 /home/ros/Workspaces/smb_ws/build/smb_highlevel_controller/CMakeFiles/list_install_components.dir
 /home/ros/Workspaces/smb_ws/build/smb_highlevel_controller/CMakeFiles/rebuild_cache.dir
 /home/ros/Workspaces/smb_ws/build/smb_highlevel_controller/CMakeFiles/test.dir
+/home/ros/Workspaces/smb_ws/build/smb_highlevel_controller/CMakeFiles/smb_emergency_stop_crash.dir
 /home/ros/Workspaces/smb_ws/build/smb_highlevel_controller/CMakeFiles/geometry_msgs_generate_messages_eus.dir
 /home/ros/Workspaces/smb_ws/build/smb_highlevel_controller/CMakeFiles/std_msgs_generate_messages_nodejs.dir
 /home/ros/Workspaces/smb_ws/build/smb_highlevel_controller/CMakeFiles/sensor_msgs_generate_messages_cpp.dir

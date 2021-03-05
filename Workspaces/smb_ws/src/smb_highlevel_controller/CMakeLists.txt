@@ -49,6 +49,11 @@ add_executable(smb_emergency_stop_close
 )
 target_link_libraries(smb_emergency_stop_close ${catkin_LIBRARIES})
 
+add_executable(smb_emergency_stop_crash
+  src/smb_emergency_stop_crash.cpp
+)
+target_link_libraries(smb_emergency_stop_crash ${catkin_LIBRARIES})
+
 #############
 ## Install ##
 #############

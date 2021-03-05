@@ -168,6 +168,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named smb_emergency_stop_crash
+
+# Build rule for target.
+smb_emergency_stop_crash: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 smb_emergency_stop_crash
+.PHONY : smb_emergency_stop_crash
+
+# fast build rule for target.
+smb_emergency_stop_crash/fast:
+	$(MAKE) -f CMakeFiles/smb_emergency_stop_crash.dir/build.make CMakeFiles/smb_emergency_stop_crash.dir/build
+.PHONY : smb_emergency_stop_crash/fast
+
+#=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_eus
 
 # Build rule for target.
@@ -1052,6 +1065,33 @@ src/smb_emergency_stop_close.cpp.s:
 	$(MAKE) -f CMakeFiles/smb_emergency_stop_close.dir/build.make CMakeFiles/smb_emergency_stop_close.dir/src/smb_emergency_stop_close.cpp.s
 .PHONY : src/smb_emergency_stop_close.cpp.s
 
+src/smb_emergency_stop_crash.o: src/smb_emergency_stop_crash.cpp.o
+
+.PHONY : src/smb_emergency_stop_crash.o
+
+# target to build an object file
+src/smb_emergency_stop_crash.cpp.o:
+	$(MAKE) -f CMakeFiles/smb_emergency_stop_crash.dir/build.make CMakeFiles/smb_emergency_stop_crash.dir/src/smb_emergency_stop_crash.cpp.o
+.PHONY : src/smb_emergency_stop_crash.cpp.o
+
+src/smb_emergency_stop_crash.i: src/smb_emergency_stop_crash.cpp.i
+
+.PHONY : src/smb_emergency_stop_crash.i
+
+# target to preprocess a source file
+src/smb_emergency_stop_crash.cpp.i:
+	$(MAKE) -f CMakeFiles/smb_emergency_stop_crash.dir/build.make CMakeFiles/smb_emergency_stop_crash.dir/src/smb_emergency_stop_crash.cpp.i
+.PHONY : src/smb_emergency_stop_crash.cpp.i
+
+src/smb_emergency_stop_crash.s: src/smb_emergency_stop_crash.cpp.s
+
+.PHONY : src/smb_emergency_stop_crash.s
+
+# target to generate assembly for a file
+src/smb_emergency_stop_crash.cpp.s:
+	$(MAKE) -f CMakeFiles/smb_emergency_stop_crash.dir/build.make CMakeFiles/smb_emergency_stop_crash.dir/src/smb_emergency_stop_crash.cpp.s
+.PHONY : src/smb_emergency_stop_crash.cpp.s
+
 src/smb_highlevel_controller_node.o: src/smb_highlevel_controller_node.cpp.o
 
 .PHONY : src/smb_highlevel_controller_node.o
@@ -1117,6 +1157,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... smb_emergency_stop_crash"
 	@echo "... geometry_msgs_generate_messages_eus"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... sensor_msgs_generate_messages_cpp"
@@ -1188,6 +1229,9 @@ help:
 	@echo "... src/smb_emergency_stop_close.o"
 	@echo "... src/smb_emergency_stop_close.i"
 	@echo "... src/smb_emergency_stop_close.s"
+	@echo "... src/smb_emergency_stop_crash.o"
+	@echo "... src/smb_emergency_stop_crash.i"
+	@echo "... src/smb_emergency_stop_crash.s"
 	@echo "... src/smb_highlevel_controller_node.o"
 	@echo "... src/smb_highlevel_controller_node.i"
 	@echo "... src/smb_highlevel_controller_node.s"

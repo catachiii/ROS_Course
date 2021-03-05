@@ -142,6 +142,56 @@
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
+			<name>[Targets]/[exe] smb_emergency_stop_crash</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] smb_emergency_stop_crash/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] smb_emergency_stop_crash/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] smb_emergency_stop_crash/Source Files/smb_emergency_stop_crash.cpp</name>
+			<type>1</type>
+			<location>/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/smb_emergency_stop_crash.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] smb_emergency_stop_crash/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] smb_emergency_stop_crash/Precompile Header File</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] smb_emergency_stop_crash/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] smb_emergency_stop_crash/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] smb_emergency_stop_crash/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] smb_emergency_stop_crash/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
 			<name>[Targets]/[exe] smb_highlevel_controller</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>

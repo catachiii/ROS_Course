@@ -3,5 +3,6 @@ smb_highlevel_controller
 /home/ros/Workspaces/smb_ws/devel/.private/smb_highlevel_controller/lib/pkgconfig/smb_highlevel_controller.pc /home/ros/Workspaces/smb_ws/devel/lib/pkgconfig/smb_highlevel_controller.pc
 /home/ros/Workspaces/smb_ws/devel/.private/smb_highlevel_controller/lib/smb_highlevel_controller/smb_emergency_stop_close /home/ros/Workspaces/smb_ws/devel/lib/smb_highlevel_controller/smb_emergency_stop_close
 /home/ros/Workspaces/smb_ws/devel/.private/smb_highlevel_controller/lib/smb_highlevel_controller/smb_highlevel_controller /home/ros/Workspaces/smb_ws/devel/lib/smb_highlevel_controller/smb_highlevel_controller
+/home/ros/Workspaces/smb_ws/devel/.private/smb_highlevel_controller/lib/smb_highlevel_controller/smb_emergency_stop_crash /home/ros/Workspaces/smb_ws/devel/lib/smb_highlevel_controller/smb_emergency_stop_crash
 /home/ros/Workspaces/smb_ws/devel/.private/smb_highlevel_controller/share/smb_highlevel_controller/cmake/smb_highlevel_controllerConfig.cmake /home/ros/Workspaces/smb_ws/devel/share/smb_highlevel_controller/cmake/smb_highlevel_controllerConfig.cmake
 /home/ros/Workspaces/smb_ws/devel/.private/smb_highlevel_controller/share/smb_highlevel_controller/cmake/smb_highlevel_controllerConfig-version.cmake /home/ros/Workspaces/smb_ws/devel/share/smb_highlevel_controller/cmake/smb_highlevel_controllerConfig-version.cmake
