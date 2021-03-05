@@ -1,0 +1,20 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/ros/Workspaces/smb_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/ros/Workspaces/smb_ws/src/hector_gazebo/hector_gazebo_plugins/include/**",
+        "/home/ros/Workspaces/smb_ws/src/smb_common/smb_gazebo/include/**",
+        "/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

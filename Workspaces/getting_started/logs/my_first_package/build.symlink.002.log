@@ -1,0 +1,4 @@
+Linked: (/home/ros/Workspaces/getting_started/devel/.private/my_first_package/lib/pkgconfig/my_first_package.pc, /home/ros/Workspaces/getting_started/devel/lib/pkgconfig/my_first_package.pc)
+Linked: (/home/ros/Workspaces/getting_started/devel/.private/my_first_package/lib/my_first_package/my_first_package_node, /home/ros/Workspaces/getting_started/devel/lib/my_first_package/my_first_package_node)
+Linked: (/home/ros/Workspaces/getting_started/devel/.private/my_first_package/share/my_first_package/cmake/my_first_packageConfig-version.cmake, /home/ros/Workspaces/getting_started/devel/share/my_first_package/cmake/my_first_packageConfig-version.cmake)
+Linked: (/home/ros/Workspaces/getting_started/devel/.private/my_first_package/share/my_first_package/cmake/my_first_packageConfig.cmake, /home/ros/Workspaces/getting_started/devel/share/my_first_package/cmake/my_first_packageConfig.cmake)

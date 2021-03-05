@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/my_first_package_node.dir/src/main.cpp.o  -o /home/ros/Workspaces/getting_started/devel/.private/my_first_package/lib/my_first_package/my_first_package_node 

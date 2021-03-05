@@ -1,0 +1,5 @@
+Symlinking /home/ros/Workspaces/smb_ws/devel/lib/pkgconfig/smb_highlevel_controller.pc
+Symlinking /home/ros/Workspaces/smb_ws/devel/lib/smb_highlevel_controller/smb_emergency_stop_close
+Symlinking /home/ros/Workspaces/smb_ws/devel/lib/smb_highlevel_controller/smb_highlevel_controller
+Symlinking /home/ros/Workspaces/smb_ws/devel/share/smb_highlevel_controller/cmake/smb_highlevel_controllerConfig.cmake
+Symlinking /home/ros/Workspaces/smb_ws/devel/share/smb_highlevel_controller/cmake/smb_highlevel_controllerConfig-version.cmake

@@ -1,0 +1,8 @@
+prefix=/home/ros/Workspaces/getting_started/install
+
+Name: ros_package_template
+Description: Description of ros_package_template
+Version: 0.1.0
+Cflags: -I${prefix}/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lros_package_template_core
+Requires: roscpp sensor_msgs

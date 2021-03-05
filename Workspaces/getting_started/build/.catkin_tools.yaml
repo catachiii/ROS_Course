@@ -1,0 +1,6 @@
+devel_space: /home/ros/Workspaces/getting_started/devel
+install: false
+install_space: /home/ros/Workspaces/getting_started/install
+profile: default
+source_space: /home/ros/Workspaces/getting_started/src
+workspace: /home/ros/Workspaces/getting_started

@@ -1,0 +1,16 @@
+Symlinking /home/ros/Workspaces/getting_started/devel/lib/pkgconfig/my_first_package.pc
+Symlinking /home/ros/Workspaces/getting_started/devel/lib/my_first_package/my_first_package_node
+Symlinking /home/ros/Workspaces/getting_started/devel/share/my_first_package/cmake/my_first_packageConfig-version.cmake
+Symlinking /home/ros/Workspaces/getting_started/devel/share/my_first_package/cmake/my_first_packageConfig.cmake
+Cleaning: (/home/ros/Workspaces/getting-started/devel/.private/my_first_package/cmake.lock, /home/ros/Workspaces/getting-started/devel/./cmake.lock)
+Cleaning: (/home/ros/Workspaces/getting-started/devel/.private/my_first_package/lib/pkgconfig/my_first_package.pc, /home/ros/Workspaces/getting-started/devel/lib/pkgconfig/my_first_package.pc)
+Cleaning: (/home/ros/Workspaces/getting-started/devel/.private/my_first_package/share/my_first_package/cmake/my_first_packageConfig-version.cmake, /home/ros/Workspaces/getting-started/devel/share/my_first_package/cmake/my_first_packageConfig-version.cmake)
+Cleaning: (/home/ros/Workspaces/getting-started/devel/.private/my_first_package/share/my_first_package/cmake/my_first_packageConfig.cmake, /home/ros/Workspaces/getting-started/devel/share/my_first_package/cmake/my_first_packageConfig.cmake)
+Unlinking: /home/ros/Workspaces/getting-started/devel/./cmake.lock
+Already unlinked: {}
+Unlinking: /home/ros/Workspaces/getting-started/devel/lib/pkgconfig/my_first_package.pc
+Already unlinked: {}
+Unlinking: /home/ros/Workspaces/getting-started/devel/share/my_first_package/cmake/my_first_packageConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/ros/Workspaces/getting-started/devel/share/my_first_package/cmake/my_first_packageConfig.cmake
+Already unlinked: {}

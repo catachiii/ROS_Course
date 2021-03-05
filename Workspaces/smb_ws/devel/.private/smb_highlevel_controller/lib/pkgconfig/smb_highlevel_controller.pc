@@ -1,0 +1,8 @@
+prefix=/home/ros/Workspaces/smb_ws/devel/.private/smb_highlevel_controller
+
+Name: smb_highlevel_controller
+Description: Description of smb_highlevel_controller
+Version: 0.0.0
+Cflags: -I/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/include
+Libs: -L${prefix}/lib 
+Requires: roscpp sensor_msgs geometry_msgs visualization_msgs tf std_srvs

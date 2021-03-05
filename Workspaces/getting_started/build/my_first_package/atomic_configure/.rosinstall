@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ros/Workspaces/getting_started/devel/.private/my_first_package/setup.sh

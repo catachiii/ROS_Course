@@ -1,0 +1,6 @@
+topic_scan: /scan
+topic_rslidar_points: /rslidar_points
+queue_size: 10
+P_gain: 0.5
+x_vel: 0.3
+service_name: start_stop_command

@@ -1,0 +1,15 @@
+<launch>
+    <include file="$(find smb_gazebo)/launch/smb_gazebo.launch">
+        <arg name="world_file" value="$(find smb_highlevel_controller)/config/singlePillar.world" />
+        <arg name="laser_enabled" value="true" />
+        <arg name="laser_scan_min_height" value="-0.2" />
+        <arg name="laser_scan_max_height" value="1.0" />
+    </include>
+
+    <node name="smb_highlevel_controller" pkg="smb_highlevel_controller" type="smb_highlevel_controller" output="screen" >
+        <rosparam command="load" file="$(find smb_highlevel_controller)/config/config.yaml" />
+    </node>
+    
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find smb_highlevel_controller)/config/rvizconfig.rviz"/>
+    <node name="rqt_multiplot" pkg="rqt_multiplot" type="rqt_multiplot" args="--multiplot-run-all" />
+</launch>

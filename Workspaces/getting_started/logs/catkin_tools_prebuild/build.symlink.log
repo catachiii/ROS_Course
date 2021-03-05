@@ -1,0 +1,46 @@
+Symlinking /home/ros/Workspaces/getting_started/devel/./env.sh
+Symlinking /home/ros/Workspaces/getting_started/devel/./local_setup.zsh
+Symlinking /home/ros/Workspaces/getting_started/devel/./setup.zsh
+Symlinking /home/ros/Workspaces/getting_started/devel/./local_setup.bash
+Symlinking /home/ros/Workspaces/getting_started/devel/./setup.sh
+Symlinking /home/ros/Workspaces/getting_started/devel/./setup.bash
+Symlinking /home/ros/Workspaces/getting_started/devel/./local_setup.sh
+Symlinking /home/ros/Workspaces/getting_started/devel/./_setup_util.py
+Symlinking /home/ros/Workspaces/getting_started/devel/./cmake.lock
+Symlinking /home/ros/Workspaces/getting_started/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Symlinking /home/ros/Workspaces/getting_started/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/ros/Workspaces/getting_started/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Cleaning: (/home/ros/Workspaces/getting-started/devel/.private/catkin_tools_prebuild/env.sh, /home/ros/Workspaces/getting-started/devel/./env.sh)
+Cleaning: (/home/ros/Workspaces/getting-started/devel/.private/catkin_tools_prebuild/local_setup.zsh, /home/ros/Workspaces/getting-started/devel/./local_setup.zsh)
+Cleaning: (/home/ros/Workspaces/getting-started/devel/.private/catkin_tools_prebuild/setup.zsh, /home/ros/Workspaces/getting-started/devel/./setup.zsh)
+Cleaning: (/home/ros/Workspaces/getting-started/devel/.private/catkin_tools_prebuild/local_setup.bash, /home/ros/Workspaces/getting-started/devel/./local_setup.bash)
+Cleaning: (/home/ros/Workspaces/getting-started/devel/.private/catkin_tools_prebuild/setup.sh, /home/ros/Workspaces/getting-started/devel/./setup.sh)
+Cleaning: (/home/ros/Workspaces/getting-started/devel/.private/catkin_tools_prebuild/setup.bash, /home/ros/Workspaces/getting-started/devel/./setup.bash)
+Cleaning: (/home/ros/Workspaces/getting-started/devel/.private/catkin_tools_prebuild/local_setup.sh, /home/ros/Workspaces/getting-started/devel/./local_setup.sh)
+Cleaning: (/home/ros/Workspaces/getting-started/devel/.private/catkin_tools_prebuild/_setup_util.py, /home/ros/Workspaces/getting-started/devel/./_setup_util.py)
+Cleaning: (/home/ros/Workspaces/getting-started/devel/.private/catkin_tools_prebuild/cmake.lock, /home/ros/Workspaces/getting-started/devel/./cmake.lock)
+Cleaning: (/home/ros/Workspaces/getting-started/devel/.private/catkin_tools_prebuild/lib/pkgconfig/catkin_tools_prebuild.pc, /home/ros/Workspaces/getting-started/devel/lib/pkgconfig/catkin_tools_prebuild.pc)
+Cleaning: (/home/ros/Workspaces/getting-started/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake, /home/ros/Workspaces/getting-started/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake)
+Cleaning: (/home/ros/Workspaces/getting-started/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake, /home/ros/Workspaces/getting-started/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake)
+Unlinking: /home/ros/Workspaces/getting-started/devel/./env.sh
+Already unlinked: {}
+Unlinking: /home/ros/Workspaces/getting-started/devel/./local_setup.zsh
+Already unlinked: {}
+Unlinking: /home/ros/Workspaces/getting-started/devel/./setup.zsh
+Already unlinked: {}
+Unlinking: /home/ros/Workspaces/getting-started/devel/./local_setup.bash
+Already unlinked: {}
+Unlinking: /home/ros/Workspaces/getting-started/devel/./setup.sh
+Already unlinked: {}
+Unlinking: /home/ros/Workspaces/getting-started/devel/./setup.bash
+Already unlinked: {}
+Unlinking: /home/ros/Workspaces/getting-started/devel/./local_setup.sh
+Already unlinked: {}
+Unlinking: /home/ros/Workspaces/getting-started/devel/./_setup_util.py
+Already unlinked: {}
+Unlinking: /home/ros/Workspaces/getting-started/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Already unlinked: {}
+Unlinking: /home/ros/Workspaces/getting-started/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/ros/Workspaces/getting-started/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Already unlinked: {}

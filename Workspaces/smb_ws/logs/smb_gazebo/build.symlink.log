@@ -1,0 +1,4 @@
+Symlinking /home/ros/Workspaces/smb_ws/devel/lib/libodometry_source_plugin.so
+Symlinking /home/ros/Workspaces/smb_ws/devel/lib/pkgconfig/smb_gazebo.pc
+Symlinking /home/ros/Workspaces/smb_ws/devel/share/smb_gazebo/cmake/smb_gazeboConfig.cmake
+Symlinking /home/ros/Workspaces/smb_ws/devel/share/smb_gazebo/cmake/smb_gazeboConfig-version.cmake

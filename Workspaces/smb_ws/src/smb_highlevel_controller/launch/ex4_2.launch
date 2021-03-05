@@ -1,0 +1,35 @@
+<launch>
+    <arg name="simulation" 			    default="true"/>
+    <arg name="robot_namespace" 		default=""/>
+    <arg name="enable_ekf" 			    default="true"/>
+    <arg name="robot_description"  	default="robot_description"/>
+    <arg name="description_file"    default="$(find smb_description)/urdf/smb_standalone.urdf.xacro"/>
+    <param name="/use_sim_time" value="true"/>
+
+    <!-- Load robot description -->
+    <include file="$(find smb_description)/launch/load.launch">
+        <arg name="simulation"       value="$(arg simulation)"/>
+        <arg name="description_name" value="$(arg robot_description)"/>
+        <arg name="description_file" value="$(arg description_file)"/>
+        <arg name="wheel_joint_type" value="continuous"/>
+        <arg name="robot_namespace"  value="$(arg robot_namespace)"/>
+    </include>
+
+    <!-- Top View -->
+    <node name="smb_top_view_broadcaster" pkg="tf" type="static_transform_publisher" args="0 0 2 0 0 0 1 base_link smb_top_view 100" />
+
+    <!-- State Publisher -->
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" output="screen" >
+        <rosparam command="load" file="$(find smb_control)/config/localization.yaml" />
+    </node>
+
+    <!-- EKF Localization -->
+    <node name="ekf_localization_node" pkg="robot_localization" type="ekf_localization_node" output="screen" >
+        <rosparam command="load" file="$(find smb_control)/config/localization.yaml" />
+    </node>
+
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find smb_highlevel_controller)/config/ex4rvizconfig.rviz"/>
+    <node name="rqt_multiplot" pkg="rqt_multiplot" type="rqt_multiplot" args="--multiplot-run-all --multiplot-config $(find smb_highlevel_controller)/config/rqt_multiplot_xy.xml" />
+    <node pkg="rosbag" type="play" name="player" output="screen" args="--clock --rate=0.5 $(find smb_highlevel_controller)/bag/smb_navigation.bag"/>
+
+</launch>

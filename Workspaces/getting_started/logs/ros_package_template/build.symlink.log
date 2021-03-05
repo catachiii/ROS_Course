@@ -1,0 +1,5 @@
+Symlinking /home/ros/Workspaces/getting_started/devel/lib/libros_package_template_core.so
+Symlinking /home/ros/Workspaces/getting_started/devel/lib/pkgconfig/ros_package_template.pc
+Symlinking /home/ros/Workspaces/getting_started/devel/lib/ros_package_template/ros_package_template
+Symlinking /home/ros/Workspaces/getting_started/devel/share/ros_package_template/cmake/ros_package_templateConfig.cmake
+Symlinking /home/ros/Workspaces/getting_started/devel/share/ros_package_template/cmake/ros_package_templateConfig-version.cmake

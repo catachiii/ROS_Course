@@ -1,0 +1,8 @@
+prefix=/home/ros/Workspaces/smb_ws/install
+
+Name: smb_gazebo
+Description: Description of smb_gazebo
+Version: 0.1.0
+Cflags: -I${prefix}/include -I/usr/include
+Libs: -L${prefix}/lib -lodometry_source_plugin /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+Requires: gazebo_ros gazebo_ros
